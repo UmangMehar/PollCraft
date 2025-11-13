@@ -15,7 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/polls")
 @CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.DELETE, RequestMethod.PUT, RequestMethod.OPTIONS})
-public class PollController {
+public class PollController { // This is PollController
 
     @Autowired
     private PollService pollService;
@@ -54,3 +54,4 @@ public class PollController {
         return ResponseEntity.noContent().build();
     }
 }
+
