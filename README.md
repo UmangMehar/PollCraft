@@ -91,6 +91,10 @@ Frontend Setup
 cd pollcraft-frontend
 npm install
 npm start
-
 Backend runs at: http://localhost:8080
 Frontend runs at: http://localhost:3000
+ 
+ScreenShot  <img width="1680" height="861" alt="Screenshot 2025-11-13 233557" src="https://github.com/user-attachments/assets/be63ff7f-2a84-47a4-8684-97a981f372de" />
+<img width="1444" height="863" alt="Screenshot 2025-11-13 234214" src="https://github.com/user-attachments/assets/cff8bde0-392c-4f67-8ab8-5569b3955270" />
+<img width="1253" height="870" alt="Screenshot 2025-11-13 234245" src="https://github.com/user-attachments/assets/29982da1-1f17-494f-8c14-9a4cee0c4e2b" />
+<img width="1897" height="896" alt="Screenshot 2025-11-13 235103" src="https://github.com/user-attachments/assets/7a88e7f2-9aa1-451d-bb70-acae012557f0" />
