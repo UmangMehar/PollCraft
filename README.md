@@ -51,28 +51,31 @@ MySQL (recommended)
 H2 for quick testing
 
 pollcraft-backend
- ├── controller
- │     └── PollController.java
- ├── service
- │     └── PollService.java
- ├── DTO
- │     ├── PollRequest.java
- │     └── VoteRequest.java
- ├── entity
- │     ├── Poll.java
- │     └── PollOption.java
- ├── repository
- │     ├── PollRepository.java
- │     └── PollOptionRepository.java
- ├── CORSConfiguration
- │     └── WebConfig.java
+├── controller
+│   └── PollController.java
+├── service
+│   └── PollService.java
+├── DTO
+│   ├── PollRequest.java
+│   └── VoteRequest.java
+├── entity
+│   ├── Poll.java
+│   └── PollOption.java
+├── repository
+│   ├── PollRepository.java
+│   └── PollOptionRepository.java
+├── CORSConfiguration
+│   └── WebConfig.java
 
 pollcraft-frontend
- ├── App.js
- ├── PollList.js
- ├── PollDetail.js
- ├── CreatePollForm.js
- └── components (Confetti, Animations, Icons)
+├── App.js
+├── PollList.js
+├── PollDetail.js
+├── CreatePollForm.js
+└── components
+    ├── Confetti
+    ├── Animations
+    └── Icons
  
 ## 🔌 API Endpoints
 📌 Polls
